@@ -10,6 +10,7 @@
 }
 
 $color-main: #0075FF;
+$color-footer: #F4F8FE;
 
 .btn-main{
     @include btn-base();
@@ -101,13 +102,13 @@ $color-main: #0075FF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    .icon{
+    i{
         color: $color-main;
         font-size: 10rem;
         padding: 0;
     }
     .title{
-        margin-top: -2rem;
+        margin-top: -1rem;
         font-size: 1.5rem;
         font-weight: 600;
     }

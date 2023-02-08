@@ -84,19 +84,15 @@
   flex-direction: column;
   align-items: center;
 }
-.icon-desc i {
+.icon-desc .icon {
   color: #0075FF;
   font-size: 10rem;
   padding: 0;
 }
 .icon-desc .title {
-  margin-top: -1rem;
+  margin-top: -2rem;
   font-size: 1.5rem;
   font-weight: 600;
-}
-
-html {
-  min-width: 100vw;
 }
 
 body {
@@ -135,12 +131,6 @@ body {
 .sec-home .home-title {
   width: 20rem;
   font-size: 3rem;
-}
-.sec-home .home-description {
-  width: 300px;
-}
-.sec-home lead-magnet .input-col {
-  max-width: 200px;
 }
 
 .sec-features, .sec-orboarding .intro, .sec-benefits .intro {
@@ -218,58 +208,4 @@ body {
   color: rgba(255, 255, 255, 0.6666666667);
 }
 
-.sec-orboarding .steps {
-  padding: 0 7rem 5rem 7rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sec-orboarding .step-separator {
-  flex: 1;
-  border-top: 2px solid #ddd;
-  margin: 0 1rem;
-}
-
-.sec-footer-cta {
-  background-color: #F4F8FE;
-  padding: 5rem;
-  background-image: url(../assets/imagenes/footer.png);
-  background-repeat: no-repeat;
-  background-position: 100%;
-}
-.sec-footer-cta .footer-cta {
-  width: 50%;
-}
-.sec-footer-cta .footer-cta .cta-title {
-  font-size: 2rem;
-}
-.sec-footer-cta .footer-cta .cta-description {
-  font-size: 1.1rem;
-}
-
-@media (max-width: 768px) {
-  .sec-orboarding .steps {
-    flex-direction: column;
-  }
-  .sec-orboarding .steps .icon-desc {
-    text-align: center;
-  }
-  .sec-footer-cta {
-    background-image: none;
-  }
-  .sec-footer-cta .footer-cta {
-    width: 100%;
-    text-align: center;
-  }
-  .sec-benefits .intro {
-    text-align: center;
-  }
-  .sec-benefits .intro h3 {
-    font-size: 2rem;
-  }
-  .sec-features .intro, .sec-benefits .intro .intro, .sec-orboarding .intro .intro {
-    font-size: 1rem;
-  }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilo.css.map */
